@@ -4,7 +4,7 @@ Welcome to my portfolio website! This website is built using React.js framework 
 ## Project Screenshot
 Here is a screenshot of my Website home page:
 
-![Screenshot of project](./src/assets/img/Screenshots/Screenshot%20(553).png)
+![Screenshot of project](./src/assets/img/Screenshots/Portfolio%20Home%20Page.jpg)
 
 
 # Home Page
