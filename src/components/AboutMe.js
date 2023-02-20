@@ -34,10 +34,10 @@ const AboutMe = () => {
                 </ul>
             </div>
             <div className="resumebtn">
-            <NavLink to="#" className="btn">
+            <a href="https://drive.google.com/file/d/1tlUWmlebj-18thsJfQrg8F750H9d1JjT/view?usp=sharing" className="btn">
                 <span>Resume</span>
                 <FaChevronRight size={15} style={{color:"#fff",marginRight:"0rem"}} />
-            </NavLink>
+            </a>
         </div>
         </div>
     </div>

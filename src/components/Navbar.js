@@ -27,6 +27,7 @@ export const Navbar = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/project">Project</Link></li>
                 <li><Link to="/about">About</Link></li>
+                <li><a href='https://drive.google.com/file/d/1tlUWmlebj-18thsJfQrg8F750H9d1JjT/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</a></li>
                 <li><Link to="/skill">Skill</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
