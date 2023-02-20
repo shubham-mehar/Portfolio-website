@@ -1,0 +1,64 @@
+.page2-img
+{
+    width: 100%;
+    background:rgb(255, 89, 0);
+    height: 70vh;
+    position: relative;
+}
+.page2-img::before
+{
+    content: "";
+    background: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.heading
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 4rem 0 0.3rem 0;
+    text-transform: uppercase !important;
+    font-weight: bold;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+
+}
+.heading h1
+{
+    color:rgb(0, 255, 0);
+}
+.heading p{
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #6c757d !important;
+}
+.page2-img h1
+{
+    font-size: 2.4rem;
+}
+.page2-img p
+{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width:640px)
+{
+    .page2-img h1
+    {
+        font-size: 2rem;
+    }
+}

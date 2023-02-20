@@ -1,0 +1,117 @@
+.project-heading
+{
+    text-align: center;
+    padding: 4rem 0 0.3rem 0;
+    text-transform: uppercase !important;
+    color: black;
+    font-weight: bold;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+.project-container
+{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+    background:  white ;
+    color: black;
+}
+.card-container
+{
+    background:  white;
+    color: black;
+}
+.project-card
+{
+    background: white;
+    padding: 1.2rem 1rem;
+    color: black;
+}
+.project-sub-heading
+{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #6c757d !important;
+}
+.project-details p
+{
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #6c757d !important;
+}
+.project-card img
+{
+    width: 100%;
+}
+.project-title 
+{
+    color: black;
+    padding: 1rem 0;
+    font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.pro-details p
+{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.pro-btns
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.pro-btns .btns
+{
+    padding: 0.5rem 1rem;
+}
+.btn-view
+{
+    color: #fff;
+    background-color: #ff9100;   /*00aced ff9100*/
+    border-color:  #ff9100;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.btn-code
+{
+    color: #fff;
+    background-color: #ff9100;   /*00aced ff9100*/
+    border-color:  #ff9100;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.btn-view:hover {
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    transition: 0.3s;
+  }
+.btn-code:hover {
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    transition: 0.3s;
+  }
+
+@media screen and (max-width:740px) 
+{
+    .project-container
+    {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }    
+}
