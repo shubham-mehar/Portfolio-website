@@ -1,48 +1,48 @@
 // import img1 from '../assets/img/portfolio/1.jpg'; 
-import img2 from '../assets/img/portfolio/2.jpg'; 
-import img3 from '../assets/img/portfolio/3.jpg'; 
-import img4 from '../assets/img/portfolio/4.jpg'; 
-import img5 from '../assets/img/portfolio/5.jpg'; 
-import img6 from '../assets/img/portfolio/6.jpg'; 
-import img1 from '../assets/img/portfolio/flaskblogsnap2.jpg'
+import img1 from '../assets/img/portfolio/Portfolio Home Page.jpg'; 
+import img2 from '../assets/img/portfolio/flaskblogsnap2.jpg'
+import img3 from '../assets/img/portfolio/customerchurn.jpg'; 
+import img4 from '../assets/img/portfolio/housepriceprediction.png'; 
+import img5 from '../assets/img/portfolio/55.jpg'; 
+import img6 from '../assets/img/portfolio/sparkfundinvestmentanalysis.jpg'; 
 
 
 const ProjectCardData=[
     {
         imgSrc: img1,
-        title: "Flask Blog App",
-        text: "Created a blogging app with Flask framework.",
-        view: "#"
+        title: "Portfolio Website",
+        text: "Designed and developed a personal portfolio website using React.js.",
+        view: "https://github.com/shubham-mehar/Portfolio-website"
     },
     {
         imgSrc: img2,
-        title: "Finish",
-        text: "Lorem ipsum dolor sit amet consectetur.",
-        view: "#"
+        title: "Flask Blog App",
+        text: "Created a blogging app with Flask framework.",
+        view: "https://github.com/shubham-mehar/Flask_Blog_App"
     },
     {
         imgSrc: img3,
-        title: "Lines",
-        text: "Lorem ipsum dolor sit amet consecteturt.",
-        view: "#"
+        title: "Telecom customer churn prediction",
+        text: "Build predictive models to identify customers at high risk of churn and identify the main indicators of churn.",
+        view: "https://github.com/shubham-mehar/Telecomm-Churn-Using-Multiple-Model"
     },
     {
         imgSrc: img4,
-        title: "Southwest",
-        text: "Lorem ipsum dolor sit amet consectetur.",
-        view: "#"
+        title: "Housing Price Prediction",
+        text: "Conducted data analysis using Multivariable linear regression.",
+        view: "https://github.com/shubham-mehar/Housing-Price-Prediction-Case-Stud"
     },
     {
         imgSrc: img5,
-        title: "Window",
-        text: "Lorem ipsum dolor sit amet consectetur.",
-        view: "#"
+        title: "Salary Prediction",
+        text: "Utilized linear regression to analyze data from Kaggle.com to identify patterns and trends.",
+        view: "https://github.com/shubham-mehar/Salary-prediction"
     },
     {
         imgSrc: img6,
-        title: "Explore",
-        text: "Lorem ipsum dolor sit amet consectetur.",
-        view: "#"
+        title: "Spark Fund Investment Analysis Project",
+        text: "Performed EDA to gain a deeper understanding of the data and uncover potential investment opportunities.",
+        view: "https://github.com/shubham-mehar/Spark-Fund-Investment-Analysis"
     }
 ]
 

@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className='footer-container'>
-            <div className='copyright-text'>Handcrafted by me &copy; 2023</div>
             <div className='social'>
               {/* <ul>
                 <li>
@@ -29,6 +28,7 @@ const Footer = () => {
                 <FaEnvelope size={30} style={{color:"#ffe600",marginRight:"1.5rem"}} />
               </a>                                          
             </div>
+            <div className='copyright-text'>Handcrafted by me &copy; 2023</div>
         </div>
     </div>
   )

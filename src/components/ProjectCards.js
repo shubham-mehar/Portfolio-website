@@ -10,8 +10,8 @@ const ProjectCards = (props) => {
         <div className='project-details'>
             <p>{props.text}</p>
             <div className='pro-btns'>
-                <NavLink to={props.view} className='btn-view'>View</NavLink>
-                <NavLink to={props.view} className='btn-code'>Code</NavLink>
+                <a href={props.view} className='btn-view'>View</a>
+                {/* <a href={props.view} className='btn-code'>Code</a> */}
             </div>
         </div>
     </div>
@@ -31,8 +31,8 @@ export default ProjectCards;
             <p>Lorem ipsum dolor sit amet consectetur.</p>
             <div className='pro-btns'>
                 <NavLink to="https://www.google.com/" className='btn'   style={isActive => ({
-color: isActive ? "green" : "blue"
-})}>View</NavLink>
+                        color: isActive ? "green" : "blue"
+                        })}>View</NavLink>
                 <NavLink to="https://www.google.com/" className='btn'>Code</NavLink>
             </div>
         </div>
