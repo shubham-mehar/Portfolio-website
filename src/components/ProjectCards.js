@@ -11,7 +11,7 @@ const ProjectCards = (props) => {
             <p>{props.text}</p>
             <div className='pro-btns'>
                 <a href={props.view} className='btn-view'>View</a>
-                {/* <a href={props.view} className='btn-code'>Code</a> */}
+                <a href={props.view} className='btn-code'>Code</a>
             </div>
         </div>
     </div>

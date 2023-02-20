@@ -11,7 +11,7 @@ const Works = () => {
         <h1 className='project-heading'>
           <FaLaptopCode size={45} style={{color:"black",marginRight:"0.8rem"}}/>
           Projects</h1>
-        <p className='project-sub-heading'>Lorem ipsum dolor sit amet consectetur.</p>
+        <p className='project-sub-heading'>Projects showcase a person's abilities and potential.</p>
         <div className='project-container'>
             { ProjectCardData.map((val, ind)=>
             {
