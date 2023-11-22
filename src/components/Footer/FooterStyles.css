@@ -9,8 +9,10 @@
 }
 .copyright-text
 {
-  padding: 0.8rem;
+  padding: 1rem;
   color: #fff;
+  text-align: center;
+  margin-right: 2rem;
 }
 h4
 {
@@ -83,3 +85,5 @@ h4
 .footer-widget ul li a:hover{
   color: #ff5e14;
 }
+
+

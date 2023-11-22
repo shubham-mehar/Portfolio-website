@@ -1,0 +1,184 @@
+.about {
+  /* background: #34495e;;; */
+  /* background-color: #62cafe; */
+  /* background: #34495e; */
+  /* background: linear-gradient(-150deg, #222222 15%, #373737 70%, #3c4859 94%); */
+  background:linear-gradient(to bottom, #19e0e7, #7ffa4a);
+
+  overflow-x: hidden;
+  }
+  .about .row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .about .row .image {
+    text-align: center;
+    flex: 1 1 35rem;
+  }
+  .about .row .image img{
+    margin: 4rem;
+    width: 20rem;
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    /* mix-blend-mode:luminosity; */
+    transition: .3s;
+    cursor: pointer;
+  }
+  .about .row .image img:hover{
+    mix-blend-mode: normal;
+  }
+  .about .row .content {
+    flex: 1 1 45rem;
+    padding: 4rem;
+  }
+  .about-heading
+  {
+      text-align: center;
+      padding: 6rem 0 0.3rem 0;
+      text-transform: uppercase !important;
+      color: black;
+      font-weight: bold;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  }
+  .about .row .content h3{
+    color: rgb(27, 27, 27);
+    font-size: 2rem;
+  }
+  .about .row .content .tag{
+    font-size: 1.1rem;
+    color: #020133;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .about .row .content p{
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    /* font-family: 'Nunito'; */
+    /* font-family: "Helvetica Neue"; */
+    font-family:Helvetica;
+    font-weight: 600;
+    color:#020133;
+  }
+  .about .row .content .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-family: 'Nunito';
+    font-weight: 600;
+    color:#020133;
+
+  }
+  .about .row .content .box-container .box p{
+    text-transform: none;
+  }
+  .about .row .content .box-container .box p span{
+    color:#424fc9;
+  }
+  .resumebtn{
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .resumebtn .btn {
+    padding: 0.7rem 1.1rem;
+    border-radius: .5em;
+    transition: 0.3s;
+    color: #fff;
+    background: #ff9100;
+    box-shadow: 0px 5px 10px rgba(7, 7, 1, 0.6);
+    font-family: 'Nunito', sans-serif;
+  }
+  .resumebtn .btn span {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .resumebtn .btn .btn-icon {
+    transition: 0.3s;
+  }
+  .resumebtn .btn:hover{
+    background: #00aced;
+  }
+  .resumebtn .btn:hover .btn-icon {
+    transform: translateX(5px);
+  }
+
+
+  .socials{
+    text-align: center;
+    position: relative;
+    margin-top: 2.5rem;
+    }
+    .socials .social-icons {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+    }
+    .socials .social-icons li {
+    display:inline-block;
+    margin-bottom:20px;
+    }
+    .social-icons a {
+    font-size: 32px;
+    display:inline-block;
+    line-height:38px;
+    color: #ffe600;
+    background-color:#09011b;
+    width:45px;
+    height:45px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+    }
+    
+    
+    .social-icons a.github:hover {
+      background-color:#0685da
+    }
+    .social-icons a.twitter:hover {
+      background-color:#00aced
+    }
+    .social-icons a.linkedin:hover {
+      background-color:#007bb6;
+    }
+    .social-icons a.mail:hover {
+      background-color:#0685da;
+    }
+    .social-icons a.dev:hover {
+      background-color:#070707
+    }
+    .social-icons a.instagram:hover {
+      background-color:#ee00da
+    }
+    
+    
+
+
+  /* about media queries starts*/
+  @media screen and (max-width: 600px){
+    .about .row .image{
+      margin-top: 2rem;
+    }
+    .about .row .image img{
+      margin: 0 auto;
+      width: 80%;
+      mix-blend-mode:normal;
+    }
+    .about .row{
+      padding: .5rem;
+      margin-bottom: 7rem;
+    }
+    .about .row .content{
+      padding: 1rem;
+    }
+    .about .row .content .box-container{
+      gap: 0;
+    }
+  }
+  /* about media queries ends*/
+  /* about section ends */

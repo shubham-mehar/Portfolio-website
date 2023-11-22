@@ -1,18 +1,16 @@
 import React from 'react'
-import Footer from "../components/Footer";
-import { Navbar } from "../components/Navbar";
-import Page2 from '../components/Page2';
-import { FaChevronRight, FaTelegram, FaUserAlt,FaLaptopCode,FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+import Footer from "../components/Footer/Footer";
+import { Navbar } from "../components/Navbar/Navbar";
+import Abshub from '../components/About/Aboutme';
 
 const About = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
         <div>
-          <Page2 heading="About me" text="lorem iphlasu arth lierutg surgb laush" />
+          <Abshub/>
         </div> 
-      <Footer />
+      <Footer/>
     </div>
   )
 }

@@ -1,15 +1,12 @@
 import React from 'react'
-import Footer from "../components/Footer";
-import { Navbar } from "../components/Navbar";
-import Page2 from '../components/Page2';
-import Form from '../components/Form';
-import { FaHeadset } from 'react-icons/fa';
+import Footer from "../components/Footer/Footer";
+import { Navbar } from "../components/Navbar/Navbar";
+import Form from '../components/Contact/Form';
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
-      <Page2 heading= "GET IN TOUCH" text="Lorem ipsum dolor sit amet consectetur." />
       <Form />
       <Footer />
     </div>

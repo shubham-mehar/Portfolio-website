@@ -33,7 +33,7 @@ ul{
 }
 .btn-primary {
   color: #fff;
-  background-color: #ff9100;   /*00aced ff9100*/
+  background-color: #ff9100;
   border-color:  #ff9100;
   cursor: pointer;
   padding: 12px 32px;
@@ -85,7 +85,7 @@ ul{
 .error-btn
 {
   color: #fff;
-  background-color: #ff9100;   /*00aced ff9100*/
+  background-color: #ff9100;  
   border-color:  #ff9100;
   cursor: pointer;
   padding: 12px 32px;

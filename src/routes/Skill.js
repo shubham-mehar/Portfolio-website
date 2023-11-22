@@ -1,14 +1,14 @@
 import React from 'react'
-import AboutMe from '../components/AboutMe';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import SkillSet from '../components/Skillset/SkillSet';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 const Skill = () => {
   return (
     <div>
-        <Navbar />
-        <AboutMe />
-        <Footer />
+      <Navbar/>
+      <SkillSet/>
+      <Footer/>
     </div>
   )
 }
